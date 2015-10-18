@@ -7,7 +7,6 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
 <nav class="navbar navbar-inverse" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -32,6 +31,83 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+<aside class="four columns">
+        <div class="h1 m-margin-bottom color-brown">
+        Newly Added Bars
+        </div>
+
+    <article class="bar-wo-pic">
+        <a data-id=4845 data-type="bar" data-name="The Bar Night Flight at Hotel Bachaumont" href="/ajax/favorite/add/bar/4845" class="btn-round star brown dark nc">
+        </a>
+        <div class="txt">
+            <h2>
+                            The Bar Night Flight at H
+                                    ...
+                                    </h2>
+            <h3>18, Rue Bachaumont...,             Paris        </h3>
+        </div>
+        <a href="/bar/paris/le-louvre/the-bar-night-flight-at-hotel-bachaumont" class="overlay-link">
+        </a>
+    </article>
+    <article class="bar-wo-pic">
+        <a data-id=4836 data-type="bar" data-name="Caffe Giacosa" href="/ajax/favorite/add/bar/4836" class="btn-round star brown dark nc"></a>
+        <div class="txt">
+            <h2>
+                            Caffe Giacosa
+                                    </h2>
+        <h3>Via della Spada,...,             Florence        </h3>
+        </div>
+        <a href="/bar/florence/city-center/caffe-giacosa" class="overlay-link"></a>
+    </article>
+    <article class="bar-wo-pic">
+        <a data-id=4803 data-type="bar" data-name="Juniper and Ivy" href="/ajax/favorite/add/bar/4803" class="btn-round star brown dark nc"></a>
+        <div class="txt">
+        <h2>
+                            Juniper and Ivy
+                                    </h2>
+        <h3>2228 Kettner Blvd,...,             San Diego        </h3>
+        </div>
+        <a href="/bar/san-diego/city-center/juniper-and-ivy" class="overlay-link"></a>
+    </article>
+    <article class="bar-wo-pic">
+        <a data-id=4802 data-type="bar" data-name="Club Cubic" href="/ajax/favorite/add/bar/4802" class="btn-round star brown dark nc"></a>
+        <div class="txt">
+         <h2>
+                            Club Cubic
+                                    </h2>
+        <h3>Level 2, The Shops...,             Macau        </h3>
+        </div>
+        <a href="/bar/macau/centre/club-cubic" class="overlay-link"></a>
+    </article>
+    <article class="bar-wo-pic">
+        <a data-id=4801 data-type="bar" data-name="Lion&#039;s Bar" href="/ajax/favorite/add/bar/4801" class="btn-round star brown dark nc"></a>
+        <div class="txt">
+        <h2>
+                            Lion&#039;s Bar
+                                    </h2>
+        <h3>MGM Macau, Avenida...,             Macau        </h3>
+        </div>
+        <a href="/bar/macau/centre/lion-s-bar" class="overlay-link"></a>
+    </article>
+
+        <a class="btn-radius border brown h4 s-margin-top" href="/bar-guides/top-world-wide">See all bars</a>
+
+    
+                <div class="newsletter-box">
+        <h2>Be the first to know</h2>
+    
+        <form name="newsletter_subscription_aside" method="post" action="/newsletter-subscription/subscribe?type=aside" novalidate="novalidate" class="newsletter-subscription-form" autocomplete="off">
+                     <input type="email" id="newsletter_subscription_aside_email" name="newsletter_subscription_aside[email]" required="required" maxlength="255" placeholder="Email address" autocomplete="off">
+        
+        
+                     <input type="submit" value="Join now !" autocomplete="off">
+        
+        <input type="hidden" id="newsletter_subscription_aside__token" name="newsletter_subscription_aside[_token]" value="lqwn9jTtznsavOnHjYM8M0rZkn05aORCu2VMy6Yp2OQ" autocomplete="off"></form>
+        </div>
+
+</aside>
+
 
 <%= yield %>
 

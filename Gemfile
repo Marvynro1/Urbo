@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+
+gem 'kaminari', '~> 0.16.3'
 # include bootstrap
 gem 'bootstrap-sass', '~> 3.3.5'
 
